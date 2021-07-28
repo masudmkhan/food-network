@@ -34,7 +34,6 @@ h1{
     margin-bottom: 70px;
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    height: 395px;
 }
 .header-width{
     margin-left: 3%;
@@ -43,4 +42,34 @@ h1{
 }
 .about-width{
     margin-left: 7%;
+}
+#recipe{
+    margin-bottom: 80px;
+}
+.recipe-title{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+#foods{
+    display: flex;
+}
+.food-details img{
+    height: 150px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+}
+.food-details{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.123);
+    border-radius: 10px;
+}
+.food-name{
+    text-align: center;
 }
